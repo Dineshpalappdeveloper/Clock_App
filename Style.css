@@ -71,10 +71,7 @@ input{
     margin: 10px;
     height: 20px;
     border-radius: 8px;
-    /* background-image: url(./Images/AM_svg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; */
+  
     background-image: linear-gradient(85deg, blueviolet, #FC5EFF);
     /* background-image: repeating-linear-gradient(blueviolet 10px red); */
 }
@@ -110,8 +107,7 @@ margin-bottom: 40px;
 }
 .timer{
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
+ 
 }
 label{
     color: #3D087B;
@@ -235,8 +231,82 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 .breackfastImagesWindowforthPage1{
     background-color: white;
     margin-top: -140px;
-  
-  
-
 }
 
+
+ /* fifth pag css style only  */
+ .cardmenuFifthPage{
+    display: flex;
+    height: 80px;
+    width: 350px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    flex-direction: row;
+ }
+ .logo{
+   position: relative;
+   top: 90px;
+   left: 60px;
+   color: #858585;
+ }
+ .clockImageFifthPage{
+    margin-left: 50px;
+    margin-top: 50px;
+ }
+ .iconparentpage5{
+    background-color: white;
+    /* height: 80px; */
+    margin-bottom: -29px;
+    margin-right: -1px;
+    margin-left: 10px;
+    width: 265px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 10px;
+    padding:  10px 45px 15px 40px;
+    
+    display: flex;
+ }
+ .timerFifthPage{
+margin-left: 60px; 
+margin-top: 30px;
+ padding-right: 20px;
+
+ }
+ .timerUnhide1fifthPage{
+
+    z-index: 8;
+ }
+ .alarmTimeFifthPage{
+background-color: white;
+margin-top: -40px;
+margin-left: 62px;
+width: 200px;
+height: 100px;
+color: black;
+ }
+ .wakeuptimingDetailsFifthPage{
+    margin: 5px 2px;
+  
+    line-height: 15px;
+ }
+ .parentMainFifthPage{
+    height: 200%;
+width: 99%;
+ }
+ .alarmTimeTimeMenuFifthPage{
+  
+    width: 200px;
+    margin-top: 50px;
+    margin-left: -10px;
+    background-color: #3D087B;
+ }
+ .wakeuptimingDetailsFifthPage1{
+    background-color: rgb(194, 239, 239);
+    color: aqua;
+    padding: 4px 2px;
+    margin: 10px 0px;
+ }
+.fifthPageSpaceing{
+padding: 10px;
+}
