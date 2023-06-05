@@ -310,3 +310,7 @@ width: 99%;
 .fifthPageSpaceing{
 padding: 10px;
 }
+.hours,.minutes,.secs{
+    font-size: 32px;
+    font-weight: bold;
+}
