@@ -17,6 +17,7 @@
     
     display: flex;
 }
+
 .containerRoution{
 padding-left: 8%;
 display: flex;
@@ -95,6 +96,7 @@ margin-bottom: 40px;
     border-radius: 8px;
     background-color: #9140B5;
 }
+
 .containerTimer{
     
     padding-right: 8%;
@@ -313,4 +315,86 @@ padding: 10px;
 .hours,.minutes,.secs{
     font-size: 32px;
     font-weight: bold;
+}
+
+/* mobileView */
+
+
+
+@media (max-width:650px) and (min-width:380px) {
+    .parentMain{
+       flex-direction: column;
+       /* background-color: aqua; */
+       height: 200%;
+      
+       padding: 1%;
+    }
+    body{
+        background-color: #3D087B;
+    }
+.containerRoution{
+    padding-left: 2%;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+  
+    }
+     
+.cardmenu{
+
+   
+    /* margin: 5px; */
+    /* margin: 250px 5px 5px 5px; */
+    margin-top: 290px;
+    /* margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px; */
+
+}
+.MORNINGtITLE{
+    /* margin-top: 250px; */
+    /* margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;    */
+}
+.timer{
+    display: flex;
+    margin-top: -1155px;
+ 
+}
+
+.breackfastImagesWindow{
+    /* padding: 25px 50px 0px 50px; */
+    width: 100%;
+    margin-top: 250%;
+  
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    height: 250px;
+}
+.menu{
+    padding:  5% 19% 5% 7%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+.containerTimer{
+    
+    padding-right: 2%;
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    margin: 1%;
+    /* margin-top: 2%;
+    margin-left: 2%; */
+    padding: 1%;
+    flex-direction: column;
+    height: auto;
+}
+
 }
