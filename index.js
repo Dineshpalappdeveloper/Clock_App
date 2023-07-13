@@ -6,6 +6,8 @@ let amPm = document.getElementsByClassName("amPm");
 
 let start = document.getElementsByClassName("timeOnly");
 
+// logic for current time
+
 setTimeout(() => {
   timeStart();
 }, 100);
