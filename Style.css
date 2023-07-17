@@ -6,6 +6,13 @@ body{
     background-color: #3D087B;
 
 }
+#image{
+    height: 350px;
+    width: 100%;
+    margin-left: 1px;
+    background-color: white;
+    border-radius: 15px;
+}
 .parentMain{
     background-color: #3D087B;
     display: flex;
@@ -90,7 +97,7 @@ input{
 }
 option{
     padding-right: 100px;
-    width: 200px;
+    width: 300px;
     /* height: 100px; */
     background-color:white;
 }
@@ -100,7 +107,7 @@ option{
     color: #F25CFE;
     width: 43%;
 margin-bottom: 40px;
-    padding: 7px;
+    padding: 13px;
     border-radius: 8px;
     background-color: #9140B5;
 }
@@ -224,8 +231,9 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 .breackfastImagesWindow{
     /* padding: 25px 50px 0px 50px; */
     width: 100%;
+    padding: 0px 0px;
     margin-top: 10px;
-  
+   
     border-radius: 15px;
     box-sizing: border-box;
 
