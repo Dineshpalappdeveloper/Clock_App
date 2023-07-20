@@ -214,6 +214,7 @@ color: #8A11BF;
     font-weight: bold;
     font-size: large;
 }
+
 .beackfastTitle{
 padding: 30px 2px;
 font-size: 24px;
@@ -254,87 +255,6 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: -140px;
 }
 
-
- /* fifth pag css style only  */
- .cardmenuFifthPage{
-    display: flex;
-    height: 80px;
-    width: 350px;
-    margin-bottom: 50px;
-    margin-left: 60px;
-    flex-direction: row;
- }
- .logo{
-   position: relative;
-   top: 90px;
-   left: 60px;
-   color: #858585;
- }
- .clockImageFifthPage{
-    margin-left: 50px;
-    margin-top: 50px;
- }
- .iconparentpage5{
-    background-color: white;
-    /* height: 80px; */
-    margin-bottom: -29px;
-    margin-right: -1px;
-    margin-left: 10px;
-    width: 265px;
-    margin-top: 50px;
-    margin-left: 60px;
-    border-radius: 10px;
-    padding:  10px 45px 15px 40px;
-    
-    display: flex;
- }
- .timerFifthPage{
-margin-left: 60px; 
-margin-top: 30px;
- padding-right: 20px;
-
- }
- .timerUnhide1fifthPage{
-
-    z-index: 8;
- }
- .alarmTimeFifthPage{
-background-color: white;
-margin-top: -40px;
-margin-left: 62px;
-width: 200px;
-height: 100px;
-color: black;
- }
- .wakeuptimingDetailsFifthPage{
-    margin: 5px 2px;
-  
-    line-height: 15px;
- }
- .parentMainFifthPage{
-    height: 200%;
-width: 99%;
- }
- .alarmTimeTimeMenuFifthPage{
-  
-    width: 200px;
-    margin-top: 50px;
-    margin-left: -10px;
-    background-color: #3D087B;
- }
- .wakeuptimingDetailsFifthPage1{
-    background-color: rgb(194, 239, 239);
-    color: aqua;
-    padding: 4px 2px;
-    margin: 10px 0px;
- }
-.fifthPageSpaceing{
-padding: 10px;
-}
-.hours,.minutes,.secs{
-    font-size: 32px;
-    font-weight: bold;
-}
 
 
 
@@ -431,131 +351,10 @@ padding: 10px;
 
 
 
-@media (max-width:650px) and (min-width:380px) {
-    .parentMain{
-       flex-direction: column;
-       /* background-color: aqua; */
-       height: 200%;
-      
-       padding: 1%;
-    }
-    body{
-        background-color: #3D087B;
-    }
-.containerRoution{
-    padding-left: 2%;
-    display: flex;
-    width: 95%;
-    flex-direction: column;
-  
-    }
-    
-.timerhide1{
-  
-    opacity: 99%;
-    background-color: #858585;
-    height: 100px;
-    margin-right: -40%;
-    position: relative;
-    margin-top: 110px;
-   bottom: 100px;
-   z-index: 2;
-   border-radius: 15px;
-   left: 18%;
-    width: 90%;
-}
- 
-.timerUnhide1{
-    background-color: white;
-    height: 100px;
-    width: 100%;
-    z-index: 5;
-    margin-left: -475px;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 8px;
-   justify-content: space-around;
-   
-}
-.timerhide2{
-  
-    opacity: 30%;
-    background-color: #8E53F0;
-    height: 100px;
-    margin-right: 70px;
-    position: relative;
-    margin-top: 120px;visibility: hidden;
-
-   bottom: 100px;
-   z-index: 3;
-   border-radius: 15px;
-   left: 18%;
-    width: 100%;
-} 
-.cardmenu{
-
-   
-    /* margin: 5px; */
-    /* margin: 250px 5px 5px 5px; */
-    margin-top: 290px;
-    /* margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px; */
-
-}
-.MORNINGtITLE{
-    /* margin-top: 250px; */
-    /* margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;    */
-    font-size: 14PX;
-}
-.timer{
-    display: flex;
-    margin-top: -1155px;
- 
-}
-
-.breackfastImagesWindow{
-    /* padding: 25px 50px 0px 50px; */
-    width: 100%;
-  margin-top: 100%;
-  
-    border-radius: 15px;
-    box-sizing: border-box;
-
-    height: 250px;
-}
-.menu{
-    padding:  5% 19% 5% 7%;
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-      
-}
-
-.containerTimer{
-    
-    padding-right: 2%;
-    display: flex;
-    width: 95%;
-    flex-wrap: wrap;
-    margin: 1%;
-    /* margin-top: 2%;
-    margin-left: 2%; */
-    padding: 1%;
-    flex-direction: column;
-    height: auto;
-}
-
-}
 
 /* mobile Mini View  */
 
-@media (max-width:380px) and (min-width:280px) {
+@media (max-width:480px) and (min-width:280px) {
     .parentMain{
         flex-direction: column;
         /* background-color: aqua; */
@@ -576,10 +375,8 @@ padding: 10px;
       
  .cardmenu{
  
-    
-     /* margin: 5px; */
-     /* margin: 250px 5px 5px 5px; */
-     margin-top: 260px;
+         /* margin from top  */
+     margin-top: 280px;
      /* margin-bottom: 5px;
      margin-left: 10px;
      margin-right: 10px; */
@@ -592,14 +389,17 @@ padding: 10px;
      margin-right: 10px;    */
          font-size: 18PX;
           padding: 2PX;
+          /* margin-top: 100px; */
+          /* margin-bottom: -100px; */
  }
  .timer{
      display: flex;
-     margin-top: -1055px;
+     margin-top: -1085px;
   
  }
  .timerContinue{
     height: 70px;
+    /* margin-top: 100px; */
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -613,9 +413,9 @@ color: #8A11BF;
 .timerUnhide1{
     background-color: white;
     height: 100px;
-    width: 100%;
+    width: 98%;
     z-index: 5;
-    margin-left: -220;
+    margin-left: -210;
     display: flex;
    justify-content: center;
    align-items: center;
@@ -664,7 +464,7 @@ color: #8A11BF;
  .breackfastImagesWindow{
      /* padding: 25px 50px 0px 50px; */
      width: 100%;
-     margin-top: 90%;
+     margin-top: 100%;
    
      border-radius: 15px;
      box-sizing: border-box;
@@ -695,4 +495,36 @@ color: #8A11BF;
      height: auto;
  }
  
+ 
+.beackfastTitle{
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: -100px;
+    /* margin-top: 10px; */
+    /* padding: 30px 2px;
+
+    box-sizing: border-box;
+    color: #8E53F0;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    height: 90px;
+   */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    #image{
+        margin-left: 7px;
+        margin-bottom: 10px;
+        margin-top:- 200px;
+        height: 90%;
+    }
+
+    .setAlarmPlusTime{
+        /* display: flex;
+      justify-content: space-around; */
+      /* margin-top: 20%; */
+      /* margin-bottom: -202px; */
+    
+    }
 }
